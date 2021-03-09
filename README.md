@@ -1,5 +1,5 @@
 # pUZI python
-Proficient UZI pass reader in python, based on work by Anne Jan: https://github.com/anne-jan/pUZI-php
+Proficient UZI pass reader in python, based on work by Anne Jan: https://github.com/minvws/pUZI-php
 
 The UZI card is part of an authentication mechanism for medical staff and doctors working in the Netherlands. The cards are distributed by the CIBG. More information and the relevant client software can be found at www.uziregister.nl (in Dutch).
 
@@ -10,8 +10,6 @@ pUZI is a simple and functional module which allows you to use the UZI cards as 
 pUZI is available under the EU PL licence. It was created early 2021 during the COVID19 campaign as part of the vaccination registration project BRBA for the ‘Ministerie van Volksgezondheid, Welzijn & Sport, programma Realisatie Digitale Ondersteuning.’
 
 Questions and contributions are welcome via [GitHub](https://github.com/minvws/pUZI-python/issues).
-
-As expected the php version on which this python code is based is available via: [GitHub](https://github.com/minvws/pUZI-php)
 
 ## Requirements
 
