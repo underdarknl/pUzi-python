@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-from collections import UserDict
 from cryptography import x509
 
 
