@@ -23,9 +23,9 @@ class UziPassUser(dict):
     OID_IA5STRING = "2.5.5.5"  # see https://oidref.com/2.5.5.5
 
     def __init__(self, verify="failed", cert=None):
-        """Sets up an UziReader object
+        """Sets up an UziPassUser object
 
-        Expects the env argument to be a dictonary with at least the following keys
+        Expects the following vars from the webserver env
         -  SSL_CLIENT_VERIFY
         -  SSL_CLIENT_CERT
         """

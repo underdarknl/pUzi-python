@@ -21,7 +21,7 @@ SSLOptions +StdEnvVars +ExportCertData
 
 ```python
 import uzireader
-uzipas = uzireader.UziPassUser(env[], env[cert])
+uzipas = uzireader.UziPassUser(env['SSL_CLIENT_VERIFY'], env['SSL_CLIENT_CERT'])
 print(uzipas)
 ```
 
