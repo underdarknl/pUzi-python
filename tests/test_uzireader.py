@@ -76,7 +76,3 @@ class TestUziReader(unittest.TestCase):
         self.assertEqual("doe-11111111", data["surName"])
         self.assertEqual("11111111", data["UziNumber"])
         self.assertEqual("1", data["UziVersion"])
-
-
-if __name__ == "__main__":
-    unittest.main()
