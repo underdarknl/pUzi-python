@@ -2,8 +2,8 @@ import unittest
 import uzireader
 import os
 
-class TestUziReader(unittest.TestCase):
 
+class TestUziReader(unittest.TestCase):
     def setUp(self):
         self.succ = "SUCCESS"
         self.dir = os.path.dirname(__file__)
@@ -53,29 +53,30 @@ class TestUziReader(unittest.TestCase):
         cert = self.readCert("mock-011-correct.cert")
         data = uzireader.UziPassUser(self.succ, cert)
 
-        self.assertEqual('00000000', data["AgbCode"])
-        self.assertEqual('N', data["CardType"])
-        self.assertEqual('john', data["givenName"])
-        self.assertEqual('2.16.528.1.1003.1.3.5.5.2', data["OidCa"])
-        self.assertEqual('30.015', data["Role"])
-        self.assertEqual('90000111', data["SubscriberNumber"])
-        self.assertEqual('doe-12345678', data["surName"])
-        self.assertEqual('12345678', data["UziNumber"])
-        self.assertEqual('1', data["UziVersion"])
+        self.assertEqual("00000000", data["AgbCode"])
+        self.assertEqual("N", data["CardType"])
+        self.assertEqual("john", data["givenName"])
+        self.assertEqual("2.16.528.1.1003.1.3.5.5.2", data["OidCa"])
+        self.assertEqual("30.015", data["Role"])
+        self.assertEqual("90000111", data["SubscriberNumber"])
+        self.assertEqual("doe-12345678", data["surName"])
+        self.assertEqual("12345678", data["UziNumber"])
+        self.assertEqual("1", data["UziVersion"])
 
     def test_check_valid_admin_cert(self):
         cert = self.readCert("mock-012-correct-admin.cert")
         data = uzireader.UziPassUser(self.succ, cert)
 
-        self.assertEqual('00000000', data["AgbCode"])
-        self.assertEqual('N', data["CardType"])
-        self.assertEqual('john', data["givenName"])
-        self.assertEqual('2.16.528.1.1003.1.3.5.5.2', data["OidCa"])
-        self.assertEqual('01.015', data["Role"])
-        self.assertEqual('90000111', data["SubscriberNumber"])
-        self.assertEqual('doe-11111111', data["surName"])
-        self.assertEqual('11111111', data["UziNumber"])
-        self.assertEqual('1', data["UziVersion"])
+        self.assertEqual("00000000", data["AgbCode"])
+        self.assertEqual("N", data["CardType"])
+        self.assertEqual("john", data["givenName"])
+        self.assertEqual("2.16.528.1.1003.1.3.5.5.2", data["OidCa"])
+        self.assertEqual("01.015", data["Role"])
+        self.assertEqual("90000111", data["SubscriberNumber"])
+        self.assertEqual("doe-11111111", data["surName"])
+        self.assertEqual("11111111", data["UziNumber"])
+        self.assertEqual("1", data["UziVersion"])
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
