@@ -1,2 +1,6 @@
 *.pyc
 __pycache__
+venv
+.venv
+tests/certs/*.cert
+tests/certs/dummy.key
