@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+__author__ = 'Jan Klopper <jan@underdark.nl>'
+
 from cryptography import x509
 
 

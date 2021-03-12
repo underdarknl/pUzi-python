@@ -1,7 +1,10 @@
-import unittest
-import uzireader
-import os
+#!/usr/bin/python3
+__author__ = "Rafael Dulfer <rafael.dulfer@gmail.com>"
 
+import os
+import unittest
+
+import uzireader
 
 class TestUziReader(unittest.TestCase):
     def setUp(self):
