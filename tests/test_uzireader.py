@@ -1,7 +1,10 @@
+#!/usr/bin/python3
+__author__ = "Rafael Dulfer <rafael.dulfer@gmail.com>"
+
+import os
 import unittest
 import uzireader.exceptions as exceptions
 from uzireader.uzipassuser import UziPassUser
-import os
 
 
 class TestUziReader(unittest.TestCase):

@@ -1,9 +1,13 @@
+#!/usr/bin/python3
+__author__ = "Rafael Dulfer <rafael.dulfer@gmail.com>"
+
 import unittest
+import os
+
 import uzireader.exceptions as exceptions
 from uzireader.uzipassuser import UziPassUser
 from uzireader.uzipassvalidator import UziPassValidator
 from uzireader.consts import UZI_TYPE_CARE_PROVIDER, UZI_ROLE_NURSE, UZI_ROLE_DENTIST
-import os
 
 
 class TestUziValidator(unittest.TestCase):

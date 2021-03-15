@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+__author__ = 'Jan Klopper <jan@underdark.nl>'
+
 from cryptography import x509
 from uzireader.exceptions import UziException, UziExceptionServerConfigError, UziExceptionClientCertError
 from uzireader.consts import OID_IA5STRING

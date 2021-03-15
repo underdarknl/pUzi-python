@@ -1,3 +1,5 @@
+__author__ = "Rafael Dulfer <rafael.dulfer@gmail.com>"
+
 OID_CA_CARE_PROVIDER = '2.16.528.1.1003.1.3.5.5.2'     # Reference page 59
 OID_CA_NAMED_EMPLOYEE = '2.16.528.1.1003.1.3.5.5.3'    # Reference page 59
 OID_CA_UNNAMED_EMPLOYEE = '2.16.528.1.1003.1.3.5.5.4'  # Reference page 59
