@@ -1,4 +1,4 @@
-__author__ = 'Jan Klopper <jan@underdark.nl>'
+__author__ = "Rafael Dulfer <rafael.dulfer@gmail.com>"
 
 from uzireader.consts import OID_CA_CARE_PROVIDER, OID_CA_NAMED_EMPLOYEE
 from uzireader.exceptions import UziException
